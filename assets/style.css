@@ -1,0 +1,368 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.intro {
+  background-image: url(/assets/images/image\ 1.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+.intro .intro-align {
+  position: absolute;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  top: 55%;
+  left: 50%;
+}
+.intro .intro-align ::-moz-placeholder {
+  font-family: "Josefin Sans";
+}
+.intro .intro-align :-ms-input-placeholder {
+  font-family: "Josefin Sans";
+}
+.intro .intro-align h2, .intro .intro-align h1, .intro .intro-align p, .intro .intro-align ::placeholder, .intro .intro-align .scroll {
+  font-family: "Josefin Sans";
+}
+.intro .intro-align .intro-txt {
+  line-height: 10px;
+  letter-spacing: 10px;
+}
+.intro .intro-align .search-bar {
+  position: relative;
+  width: 650px;
+  height: 64px;
+  margin-top: 50px;
+}
+.intro .intro-align .search-bar input {
+  position: absolute;
+  font-weight: 400;
+  width: 83%;
+  height: 100%;
+  left: 10%;
+  letter-spacing: 5px;
+  border: 1px solid white;
+  padding-left: 50px;
+}
+.intro .intro-align .search-bar input ::-moz-placeholder {
+  color: rgb(166, 163, 163);
+}
+.intro .intro-align .search-bar input :-ms-input-placeholder {
+  color: rgb(166, 163, 163);
+}
+.intro .intro-align .search-bar input ::placeholder {
+  color: rgb(166, 163, 163);
+}
+.intro .intro-align .search-bar button {
+  position: absolute;
+  height: 98%;
+  right: 0;
+  top: 8px;
+  height: 84%;
+  padding: 0 15px;
+  background-color: #5474FD;
+  border: 1px solid #5474FD;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Aleo";
+  display: flex;
+  align-items: center;
+  letter-spacing: 4px;
+}
+.intro .intro-align .search-bar button svg {
+  margin-left: 10px;
+}
+.intro .intro-align .scroll {
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.4s;
+}
+.intro .intro-align .scroll a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.intro .intro-align .scroll:hover svg {
+  transform: translateY(3px);
+  cursor: pointer;
+}
+.intro nav {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #5474FD;
+  width: 100%;
+}
+.intro nav h2 {
+  font-family: "Josefin Sans";
+}
+.intro nav ul {
+  display: flex;
+  list-style-type: none;
+  font-family: "Aleo";
+}
+.intro nav ul a {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+  font-weight: 300;
+}
+
+.why-choose-us {
+  background-image: url(/assets/images/opacity-city-bckr.png);
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+.why-choose-us .why-left {
+  position: absolute;
+  width: 28%;
+  left: 17%;
+  top: 30%;
+  color: #fff;
+}
+.why-choose-us .why-left h2 {
+  font-family: "Aleo";
+  font-weight: 400;
+}
+.why-choose-us .why-left p {
+  font-family: "Josefin Sans";
+  font-weight: 300;
+}
+.why-choose-us .btn {
+  font-family: "Aleo";
+  padding: 15px 45px;
+  background-color: #5474FD;
+  border: 1px solid #5474FD;
+  color: #fff;
+  margin-top: 20px;
+  transition: transform 0.5s;
+}
+.why-choose-us .btn:hover {
+  cursor: pointer;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+.why-choose-us .why-right--img {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 15%;
+  top: 18%;
+}
+.why-choose-us .why-right--img img {
+  width: 350px;
+  height: 220px;
+  margin: 5px;
+}
+.why-choose-us .why-right--img .mountain {
+  margin-left: 70px;
+}
+
+.how-it-works {
+  padding: 150px 0 150px 0;
+  background-color: #333333;
+  font-family: "Aleo";
+  color: #fff;
+  position: relative;
+}
+.how-it-works .how-it-works--items--wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 55%;
+}
+.how-it-works .hyperbole {
+  height: 100px;
+  width: 45%;
+  position: absolute;
+  left: 25.5%;
+  top: 7%;
+  z-index: 1;
+  overflow: hidden;
+}
+.how-it-works .how-it-works--items {
+  margin-right: 200px;
+  margin-top: 30px;
+  font-size: 24px;
+  z-index: 2;
+}
+
+.spain {
+  background-image: url(/assets/images/pool.png);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+  color: #fff;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+}
+.spain .spain-box {
+  background-color: rgba(35, 35, 35, 0.8);
+  fill: solid;
+  width: 28%;
+  position: absolute;
+  top: 33%;
+  left: 18%;
+  padding: 30px;
+}
+.spain .spain-box h2 {
+  font-weight: 400;
+}
+.spain .spain-box .btn {
+  font-family: "Aleo";
+  padding: 15px 45px;
+  background-color: #5474FD;
+  border: 1px solid #5474FD;
+  color: #fff;
+  margin-top: 20px;
+  transition: transform 0.5s;
+}
+.spain .spain-box .btn:hover {
+  cursor: pointer;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.rocks {
+  background-image: url(/assets/images/rocks.png);
+}
+.rocks .spain-box {
+  left: 50%;
+}
+
+.tourist {
+  background-image: url(/assets/images/hiking.png);
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  color: #fff;
+  font-family: "Aleo";
+  position: relative;
+  padding-top: 60px;
+}
+.tourist .tourist-box {
+  position: absolute;
+  width: 55%;
+  display: flex;
+  background-color: #333333;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.tourist .tourist-box img {
+  width: 300px;
+}
+.tourist i {
+  color: #5474FD;
+  font-size: 40px;
+}
+.tourist h2 {
+  font-weight: 400;
+  text-align: center;
+}
+.tourist .tourist-box--txt {
+  font-weight: 300;
+  margin: 10px 30px;
+}
+.tourist h3 {
+  font-weight: 400;
+}
+
+footer {
+  text-align: center;
+  background-color: #232323;
+  color: #fff;
+  font-family: "Josefin Sans";
+  padding: 30px 0 30px 0;
+}
+footer h2, footer p {
+  font-weight: 400;
+}
+footer svg {
+  margin-right: 10px;
+}
+
+/********************************************MEDIA********************************************************************/
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul li {
+    margin-top: 20px;
+  }
+  .why-choose-us {
+    position: relative;
+    height: 80vh;
+  }
+  .why-choose-us .why-left {
+    position: absolute;
+    top: 10%;
+    left: 26%;
+    width: 50%;
+    text-align: center;
+  }
+  .why-choose-us .why-right--img {
+    position: absolute;
+    top: 50%;
+  }
+  .why-choose-us .why-right--img .mountain {
+    position: relative;
+    left: -15%;
+  }
+  .how-it-works {
+    position: relative;
+    height: 60vh;
+  }
+  .how-it-works .how-it-works--items--wrapper {
+    display: grid;
+    position: absolute;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 1fr);
+    transform: translate(-50%, -50%);
+    left: 62%;
+  }
+  .tourist .tourist-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 30%;
+    height: 40vh;
+  }
+  .tourist .tourist-box p {
+    position: absolute;
+    bottom: 8%;
+  }
+  .tourist .tourist-box img {
+    position: absolute;
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
